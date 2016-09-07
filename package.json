@@ -1,0 +1,13 @@
+{
+  "name": "rest-demo",
+  "dependencies": {
+    "express": "4.1.1",
+    "body-parser": "1.0.2"
+  },
+  "engine": {
+    "node": ">=0.10.25"
+  },
+  "devDependencies": {
+    "should": "^4.4.2"
+  }
+}
