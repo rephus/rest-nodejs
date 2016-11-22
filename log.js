@@ -23,10 +23,6 @@ module.exports = {
         info: function(msg){
           var log =  getTime() + " [INFO] " + name + ': '+ msg;
           console.log(log);
-        },
-        error: function(msg){
-          var log =  getTime() + " [ERROR] " + name + ': '+ msg;
-          console.error(log);
         }
       };
     }

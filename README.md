@@ -1,9 +1,13 @@
 ## Description
 
-Shopping search app. Simultaneously search on 4 different online shops
-and display the results on a single web page.
+Simple REST NodeJS with Express
 
-![/images/sample.png](/images/sample.png)
+Log.js contains a function for easy logs, producing messages like:
+
+```
+19:58:43 [INFO] rest: Rest API started on port 8988
+20:10:21 [INFO] rest: Received POST body {"foo":"bar"}
+```
 
 ## Run
 
@@ -12,10 +16,6 @@ npm install
 node app.js
 ```
 
-curl localhost:8994
+`curl http://localhost:8988?foo=bar` to test a GET message
 
-## Known bugs
-
-* Unable to open relative links on amazon
-* Unable to view mobile version on aliexpress
-* Price in dollars on some pages
+Run `post.sh`  to test a POST message
